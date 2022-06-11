@@ -39,7 +39,7 @@
 	 "forwardPorts": [8501],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install torch | pip install datasets transformers | pip install streamlit",
+	"postCreateCommand": "pip install torch datasets transformers",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 // 	"remoteUser": "vscode",
@@ -53,4 +53,4 @@
 // 		"java": "latest",
 // 		"jupyterlab": "latest"
 // 	}
-// }
+}
